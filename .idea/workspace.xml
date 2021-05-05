@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Deleted redundant package.json">
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Fixed fonts on homepage.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/homepage.css" afterDir="false" />
     </list>
@@ -101,7 +101,7 @@
       <workItem from="1620154628856" duration="1228000" />
       <workItem from="1620161516131" duration="580000" />
       <workItem from="1620162315198" duration="650000" />
-      <workItem from="1620176998679" duration="650000" />
+      <workItem from="1620176998679" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620161925168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed fonts on homepage.css">
+      <created>1620177822019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620177822019</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated Homepage" />
     <MESSAGE value="Deleted redundant package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted redundant package.json" />
+    <MESSAGE value="Fixed fonts on homepage.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed fonts on homepage.css" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
