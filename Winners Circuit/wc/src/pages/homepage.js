@@ -2,12 +2,21 @@ import React from 'react';
 import './homepage.css'
 import logo from "./logo.png";
 import temp from "./temp.png";
+import red1 from "./red1.png";
+import red2 from "./red2.png";
+import red3 from "./red3.png";
+import twitter from "./twitter.png";
+import instagram from "./instagram.png";
 
 const MainPage = () => {
     return (
         <div className="flex-container">
             <p id = 'welcome'>WELCOME &nbsp; TO
                 <span id = 'buttons'> <button id = 'joinButton'>Join Now</button> &nbsp; <button id = 'signInButton'>Sign in</button> </span>
+                <span id = 'socialMedia'>
+                    <img id="twitter" src = {twitter} alt = 'Twitter'/>
+                    <img id="instagram" src = {instagram} alt = 'Instagram'/>
+                </span>
             </p>
 
             <div className = 'sectionOne'>
@@ -56,6 +65,26 @@ const MainPage = () => {
                 <div className = 'sectionThreeRight'>
                     <img id = 'tempPhoto' src={temp}/>
                 </div>
+            </div>
+
+            <div className = 'sectionFour'>
+
+                <h1>What you can do as a <span className = 'redHighlight'>Player </span> . . . </h1>
+                <img className = 'redPhoto' src = {red3}/>
+                <img className = 'redPhoto' src = {red1}/>
+                <img className = 'redPhoto' src = {red2}/>
+                <h2 id = 'lowerImageTitle1'>Branding</h2>
+                <h2 id = 'lowerImageTitle2'>Opportunity</h2>
+                <h2 id = 'lowerImageTitle3'>Development</h2>
+                <p id = 'lowerImageText1'> <span className = 'redHighlight'> Build a personal profile & post your talent </span> </p>
+                <p id = 'lowerImageText2'> Connect with coaches & scouts </p>
+                <p id = 'lowerImageText3'> <span className = 'redHighlight'> Enhance your journey in basketball </span> </p>
+            </div>
+
+            <div className = 'sectionFive'>
+                <h1>BEGIN YOUR JOURNEY TO THE NEXT LEVEL AND <span className = 'redHighlight'>JOIN NOW </span> </h1>
+                <button id = 'signUpButton'>Sign up</button>
+                <p>Dream. Plan. <span className='redHighlight'>Win </span> </p>
             </div>
 
 
