@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './homepage.css'
 import logo from "./logo.png";
 import temp from "./temp.png";
@@ -12,7 +13,10 @@ const MainPage = () => {
     return (
         <div className="flex-container">
             <p id = 'welcome'>WELCOME &nbsp; TO
-                <span id = 'buttons'> <button id = 'joinButton'>Join Now</button> &nbsp; <button id = 'signInButton'>Sign in</button> </span>
+                <span id = 'buttons'>
+                    <Link to = '/signup' id = 'joinButton'> Join Now </Link> &nbsp;
+                    <Link to = '/login'  id = 'signInButton'> Sign in </Link>
+                </span>
                 <span id = 'socialMedia'>
                     <img id="twitter" src = {twitter} alt = 'Twitter'/>
                     <img id="instagram" src = {instagram} alt = 'Instagram'/>
@@ -21,7 +25,10 @@ const MainPage = () => {
 
             <div className = 'sectionOne'>
 
+                <div id = 'logoDiv'>
                 <img id = 'logo' src={logo} alt="Logo"/>
+                </div>
+
                 <div className = 'textBoxes'>
                     <h3> CONNECT WITH <span className = 'bold'>PLAYERS & COACHES </span></h3>
                     <h3> SEARCH FOR <span className = 'bold'>OPPORTUNITIES </span></h3>
@@ -82,11 +89,10 @@ const MainPage = () => {
             </div>
 
             <div className = 'sectionFive'>
-                <h1>BEGIN YOUR JOURNEY TO THE NEXT LEVEL AND <span className = 'redHighlight'>JOIN NOW </span> </h1>
-                <button id = 'signUpButton'>Sign up</button>
+                <h1>BEGIN YOUR JOURNEY TO THE NEXT LEVEL AND <span className = 'redHighlight'> JOIN NOW </span> </h1>
+                <Link to = '/signup' id = 'signUpButton'>Sign up</Link>
                 <p>Dream. Plan. <span className='redHighlight'>Win </span> </p>
             </div>
-
 
         </div>
     )

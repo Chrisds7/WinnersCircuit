@@ -1,0 +1,63 @@
+@import url('https://fontlibrary.org//face/glacial-indifference');
+
+#background {
+    background-image: url("login_background.png");
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.loginDiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    height: 600px;
+    width: 600px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#logo {
+    margin: auto;
+}
+
+#logInHeader {
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.inputFields {
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 50px;
+    width: 75%;
+    border-radius: 5px;
+    border: 3px solid #9f0101;
+}
+
+#username {
+    clear: right;
+}
+
+#password {
+    display: block;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input::placeholder {
+    padding: 10px;
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-size: 150%;
+}
+
+input:focus {
+    outline: none;
+}
