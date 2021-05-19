@@ -1,0 +1,100 @@
+@import url('https://fontlibrary.org//face/glacial-indifference');
+
+.signUpBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f6f6f6;
+}
+
+#signUpLogo {
+    height: 20%;
+    width: 10%;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+
+.signUpForm {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    width: 30%;
+    -webkit-transform: translate(-50%,-50%);
+    border: 5px black solid;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 13%;
+}
+
+.signUpForm h1 {
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#redHighlight {
+    color: #9f0101;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    margin-left: 5%;
+}
+
+input {
+    display: block;
+    height: 30px;
+    width: 85%;
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+
+input:focus {
+    width: 85%;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+input::placeholder {
+    font-size: 25px;
+}
+
+.signUpPassword {
+    -webkit-text-security: disc;
+}
+
+select {
+    margin-left: 3%;
+    width: 30%;
+    height: 35px;
+    margin-bottom: 5%;
+    clear: both;
+}
+
+#team {
+    display: block;
+}
+
+#join {
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    width: 20%;
+    height: 40px;
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-size: 25px;
+    color: #9f0101;
+    background-color: white;
+    border-radius: 5px;
+    border: black solid 3px;
+}
