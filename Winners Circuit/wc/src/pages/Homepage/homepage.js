@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './homepage.css'
-import logo from "./logo.png";
+import logo from "../logo.png";
 import temp from "./temp.png";
 import red1 from "./red1.png";
 import red2 from "./red2.png";
@@ -25,7 +25,7 @@ const MainPage = () => {
 
             <div className = 'sectionOne'>
 
-                <div id = 'logoDiv'>
+                <div id = 'homepageLogoDiv'>
                 <img id = 'logo' src={logo} alt="Logo"/>
                 </div>
 

@@ -1,8 +1,8 @@
 import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
-import MainPage from './pages/homepage';
-import NotFoundPage from './pages/404';
-import LogInPage from "./pages/loginpage";
-import SignUpPage from "./pages/signuppage";
+import MainPage from './pages/Homepage/homepage';
+import NotFoundPage from './pages/404/404';
+import LogInPage from "./pages/LogInPage/loginpage";
+import SignUpPage from "./pages/SignUpPage/signuppage";
 
 function App() {
   return (

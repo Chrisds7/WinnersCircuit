@@ -13,7 +13,7 @@ body {
 #welcome {
   text-align: center;
   margin-top: 3%;
-  margin-left: 7%;
+  margin-left: 8%;
   font-family: 'GlacialIndifferenceRegular', sans-serif;
   font-size: 200%;
 }
@@ -68,17 +68,16 @@ body {
   margin: 5px;
 }
 
-#logoDiv {
-  margin-top: -7%;
+#homepageLogoDiv {
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 5%;
 }
 
 #logo {
   margin-left: 34%;
   margin-right: 34%;
   margin-top: -10%;
-  display: block;
   height: 33%;
   width: 33%;
 }

@@ -1,6 +1,6 @@
 @import url('https://fontlibrary.org//face/glacial-indifference');
 
-#background {
+#logInBackground {
     background-image: url("login_background.png");
     position: fixed;
     bottom: 0;
@@ -9,26 +9,29 @@
     top: 0;
 }
 
-.loginDiv {
+.logInDiv {
     position: fixed;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    height: 600px;
-    width: 600px;
     background: #f6f6f6;
     border-radius: 10px;
     border: 5px solid black;
 }
 
-#logo {
-    margin: auto;
+#logInLogo {
+    height: 35%;
+    width: 35%;
+    margin-left: 30%;
+    margin-top: -5%;
 }
+
 
 #logInHeader {
     font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-size: 40px;
     margin-left: 10%;
-    margin-top: -5%;
+    margin-top: -10%;
 }
 
 .inputFields {
@@ -40,16 +43,27 @@
     border: 3px solid #9f0101;
 }
 
-#username {
+#email {
     clear: right;
+}
+
+#email:focus {
+    width: 75%;
+    height: 50px;
 }
 
 #password {
     display: block;
+    -webkit-text-security: disc;
+}
+
+#password {
+    width: 75%;
+    height: 50px;
 }
 
 input:focus::placeholder {
-    color: transparent;
+    color: transparent
 }
 
 input::placeholder {
@@ -60,4 +74,25 @@ input::placeholder {
 
 input:focus {
     outline: none;
+    font-size: 25px;
+}
+
+#signIn {
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 200px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    color: #9f0101;
+}
+
+#forgotPassword {
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    clear: left;
+    margin-left: 44%;
 }
