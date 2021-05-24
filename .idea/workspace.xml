@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="put loginpage.js in the correct folder">
-      <change afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/SignUpPage/signuppage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/loginpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,10 @@
       <workItem from="1621298465751" duration="2860000" />
       <workItem from="1621354479005" duration="2964000" />
       <workItem from="1621365672886" duration="85000" />
-      <workItem from="1621438950580" duration="8674000" />
+      <workItem from="1621438950580" duration="8765000" />
+      <workItem from="1621454580706" duration="2260000" />
+      <workItem from="1621531143901" duration="766000" />
+      <workItem from="1621613933549" duration="6457000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -170,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621447993621</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="put loginpage.js in the correct folder">
+      <created>1621448129307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621448129307</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

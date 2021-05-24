@@ -11,6 +11,8 @@
 
 .logInDiv {
     position: fixed;
+    height: 45%;
+    width: 25%;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -19,80 +21,31 @@
     border: 5px solid black;
 }
 
-#logInLogo {
-    height: 35%;
-    width: 35%;
-    margin-left: 30%;
-    margin-top: -5%;
+.logInLogo {
+    position: fixed;
+    margin-top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    height: 50%;
+    width: 45%;
 }
 
-
-#logInHeader {
-    font-family: 'GlacialIndifferenceRegular', sans-serif;
+.logInHeader {
     font-size: 40px;
-    margin-left: 10%;
-    margin-top: -10%;
+    color: black;
+    text-align: center;
+    font-family: 'GlacialIndifferenceBold', sans-serif;
+    margin-top: 30%;
 }
 
-.inputFields {
-    margin-left: 10%;
-    margin-top: 5%;
-    height: 50px;
-    width: 75%;
-    border-radius: 5px;
-    border: 3px solid #9f0101;
-}
-
-#email {
-    clear: right;
-}
-
-#email:focus {
-    width: 75%;
-    height: 50px;
-}
-
-#password {
-    display: block;
-    -webkit-text-security: disc;
-}
-
-#password {
-    width: 75%;
-    height: 50px;
-}
-
-input:focus::placeholder {
-    color: transparent
-}
-
-input::placeholder {
-    padding: 10px;
-    font-family: 'GlacialIndifferenceRegular', sans-serif;
-    font-size: 150%;
-}
-
-input:focus {
-    outline: none;
-    font-size: 25px;
-}
-
-#signIn {
-    border-radius: 25px;
+.googleButton {
     display: block;
     margin: auto;
-    margin-top: 5%;
-    width: 200px;
-    padding: 10px;
-    border: 3px solid black;
+    margin-top: 10%;
+    font-family: 'GlacialIndifferenceBold', sans-serif;
+    height: 15%;
+    width: 50%;
+    border: solid 3px #9f0101;
     background-color: white;
-    font-size: 25px;
-    font-family: 'GlacialIndifferenceRegular', sans-serif;
-    color: #9f0101;
-}
-
-#forgotPassword {
-    font-family: 'GlacialIndifferenceRegular', sans-serif;
-    clear: left;
-    margin-left: 44%;
+    border-radius: 5px;
 }
