@@ -3,16 +3,27 @@ import './loginpage.css'
 import logo from '../logo.png'
 import GoogleLogin from "react-google-login";
 
-    const googleSuccess = (res) => {
+    const googleSuccess = async (res) => {
         console.log('Google sign in was a success');
         console.log(res.profileObj);
+
+        const body = { google_id: res.profileObj.googleId, firstname: res.profileObj.givenName, lastname: res.profileObj.familyName, email: res.profileObj.email };
+
+        const response = await fetch("http://localhost:5000/signup", {
+
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(body)
+
+        });
+
+        console.log(response);
     }
 
     const googleFailure = (err) => {
         console.log('Google sign in was a failure');
         console.log(err);
     }
-
 
     const LogInPage = () => {
         return (
