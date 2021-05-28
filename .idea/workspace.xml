@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +126,7 @@
       <workItem from="1621531143901" duration="766000" />
       <workItem from="1621613933549" duration="6457000" />
       <workItem from="1622065091009" duration="5594000" />
+      <workItem from="1622159029899" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
