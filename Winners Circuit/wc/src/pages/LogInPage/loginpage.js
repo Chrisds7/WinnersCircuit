@@ -6,15 +6,32 @@ import FacebookLogin from "react-facebook-login";
 import GoogleLogin from "react-google-login";
 
 const googleSuccess = async (res) => {
-    console.log('Google sign in was a success');
-    console.log(res.profileObj);
 
     const body = {
-        google_id: res.profileObj.googleId,
-        firstname: res.profileObj.givenName,
-        lastname: res.profileObj.familyName,
-        email: res.profileObj.email
+
+        userId: res.profileObj.googleId,
+        loginDomain: "Google"
+
     };
+
+    const response = await fetch("http://localhost:5000/signup", {
+
+        method: "POST",
+        headers: {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"},
+        body: JSON.stringify(body)
+
+    });
+
+}
+
+const facebookSuccess = async (res) => {
+
+    const body = {
+
+        userId: res.userID,
+        loginDomain: "Facebook"
+
+    }
 
     const response = await fetch("http://localhost:5000/signup", {
 
@@ -24,22 +41,11 @@ const googleSuccess = async (res) => {
 
     });
 
-    console.log(response);
-}
-
-const facebookSuccess = async (res) => {
-
-    console.log(res);
-
 }
 
 const loginFailure = (err) => {
     console.log('Log in was a failure');
     console.log(err);
-}
-
-const responseFacebook = (response) => {
-    console.log(response);
 }
 
 const LogInPage = () => {
@@ -70,10 +76,9 @@ const LogInPage = () => {
 
                 <FacebookLogin
                     appId="910935036418679"
-                    autoLoad={true}
+                    autoLoad={false}
                     fields="name,email,picture"
-                    onClick={facebookSuccess}
-                    callback={responseFacebook}
+                    callback={facebookSuccess}
                 />
 
             </div>

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Integrated backend for Google signin">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Integrated frontend for Facebook login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +122,8 @@
       <workItem from="1621531143901" duration="766000" />
       <workItem from="1621613933549" duration="6457000" />
       <workItem from="1622065091009" duration="5594000" />
-      <workItem from="1622159029899" duration="1777000" />
+      <workItem from="1622159029899" duration="2494000" />
+      <workItem from="1622238423423" duration="4972000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621448129307</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Integrated frontend for Facebook login">
+      <created>1622160869046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622160869046</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +216,8 @@
     <MESSAGE value="button functionality, sign up page 3/4 done" />
     <MESSAGE value="Unresponsive front pages finished without backend" />
     <MESSAGE value="put loginpage.js in the correct folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="put loginpage.js in the correct folder" />
+    <MESSAGE value="Integrated frontend for Facebook login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated frontend for Facebook login" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
