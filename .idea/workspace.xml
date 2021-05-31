@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Integrated frontend for Facebook login">
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Integrated backend for facebook login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/login_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LogInPage/loginpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/SignUpPage/signuppage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/SignUpPage/signuppage.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,16 +73,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\William\WebstormProjects\WinnersCircuit\Winners Circuit\wc\src\pages\LoginComponent" />
       <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\Homepage" />
       <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\404" />
       <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\LogInPage" />
       <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\SignUpPage" />
-      <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -123,7 +130,14 @@
       <workItem from="1621613933549" duration="6457000" />
       <workItem from="1622065091009" duration="5594000" />
       <workItem from="1622159029899" duration="2494000" />
-      <workItem from="1622238423423" duration="4972000" />
+      <workItem from="1622238423423" duration="5150000" />
+      <workItem from="1622340099776" duration="4124000" />
+      <workItem from="1622416946514" duration="1616000" />
+      <workItem from="1622422174659" duration="316000" />
+      <workItem from="1622422513622" duration="4664000" />
+      <workItem from="1622474172758" duration="5264000" />
+      <workItem from="1622485823319" duration="1707000" />
+      <workItem from="1622495951671" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -188,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622160869046</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Integrated backend for facebook login">
+      <created>1622243658830</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622243658830</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +238,8 @@
     <MESSAGE value="Unresponsive front pages finished without backend" />
     <MESSAGE value="put loginpage.js in the correct folder" />
     <MESSAGE value="Integrated frontend for Facebook login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrated frontend for Facebook login" />
+    <MESSAGE value="Integrated backend for facebook login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated backend for facebook login" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
