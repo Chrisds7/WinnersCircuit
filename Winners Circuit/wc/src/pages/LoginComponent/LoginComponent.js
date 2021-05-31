@@ -17,7 +17,7 @@ class LoginComponent extends React.Component {
 
             <div className = { this.props.show ? "modal display-block" : "modal display-none" }>
 
-                <section className="modal-main">
+                <div className = "modal-main">
 
                     <span>
 
@@ -39,7 +39,7 @@ class LoginComponent extends React.Component {
 
                     <div className='break'></div>
 
-                </section>
+                </div>
 
             </div>
 

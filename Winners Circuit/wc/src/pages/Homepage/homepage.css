@@ -60,6 +60,7 @@ body {
   margin-right: 10%;
   margin-left: 10%;
   margin-bottom: 5%;
+  z-index: -1;
 }
 
 #logo {
@@ -68,6 +69,7 @@ body {
   margin-top: -10%;
   height: 33%;
   width: 33%;
+  z-index: -1;
 }
 
 .textBoxes {
