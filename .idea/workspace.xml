@@ -1,11 +1,451 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Added popup, deleted login, added feed and register">
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Integrated backend for Google signin">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/AsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/AwaitValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/applyDecoratedDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/arrayLikeToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/arrayWithHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/assertThisInitialized.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/asyncGeneratorDelegate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/asyncIterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/asyncToGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/awaitAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classApplyDescriptorDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classApplyDescriptorGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classApplyDescriptorSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classCallCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classCheckPrivateStaticAccess.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classCheckPrivateStaticFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classExtractFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classNameTDZError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classPrivateFieldGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classPrivateFieldLooseBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classPrivateFieldLooseKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classPrivateFieldSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classStaticPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classStaticPrivateFieldSpecGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classStaticPrivateFieldSpecSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classStaticPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/classStaticPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/construct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/createClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/createForOfIteratorHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/createForOfIteratorHelperLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/createSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/decorate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/defineEnumerableProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/defineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/AsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/AwaitValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/asyncGeneratorDelegate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/asyncIterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/awaitAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classCallCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classCheckPrivateStaticAccess.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classCheckPrivateStaticFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classExtractFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classNameTDZError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classPrivateFieldLooseBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classPrivateFieldLooseKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classPrivateFieldSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldSpecGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldSpecSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classStaticPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/classStaticPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/construct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/createClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelperLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/createSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/decorate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/defineEnumerableProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/defineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/extends.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/instanceof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/interopRequireDefault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/interopRequireWildcard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/isNativeFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/isNativeReflectConstruct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/iterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimitLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/maybeArrayLike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/newArrowCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/objectSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/objectSpread2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/readOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/skipFirstGeneratorNext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/slicedToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/slicedToArrayLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/superPropBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteralLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/tdz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/temporalRef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/temporalUndefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/toArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/toPrimitive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/toPropertyKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/typeof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/wrapAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/wrapRegExp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/writeOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/extends.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/getPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/inheritsLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/initializerDefineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/initializerWarningHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/instanceof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/interopRequireDefault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/interopRequireWildcard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/isNativeFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/iterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/iterableToArrayLimitLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/maybeArrayLike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/newArrowCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/nonIterableRest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/nonIterableSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/objectSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/objectSpread2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/objectWithoutProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/readOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/setPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/skipFirstGeneratorNext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/slicedToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/slicedToArrayLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/superPropBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/taggedTemplateLiteralLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/tdz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/temporalRef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/temporalUndefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/toArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/toConsumableArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/toPrimitive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/toPropertyKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/typeof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/wrapAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/wrapNativeSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/wrapRegExp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/writeOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/regenerator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/DOMUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/ExecutionEnvironment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/LocationUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/PathUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/cjs/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/cjs/history.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/createBrowserHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/createHashHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/createMemoryHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/createTransitionManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/DOMUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/ExecutionEnvironment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/LocationUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/PathUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/createBrowserHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/createHashHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/createMemoryHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/createTransitionManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/es/warnAboutDeprecatedESMImport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/esm/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/umd/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/umd/history.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/history/warnAboutDeprecatedCJSRequire.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/loose-envify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-create-react-context/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-create-react-context/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-create-react-context/dist/cjs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-create-react-context/dist/cjs/index.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-create-react-context/dist/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-create-react-context/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-create-react-context/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factoryWithThrowingShims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/lib/ReactPropTypesSecret.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/prop-types.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/build-info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/BrowserRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/HashRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/Link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/MemoryRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/NavLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/Prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/Redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/Route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/Router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/StaticRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/Switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/BrowserRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/HashRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/Link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/MemoryRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/NavLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/Prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/Redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/Route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/Router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/StaticRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/Switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/generatePath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/matchPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/warnAboutDeprecatedESMImport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/es/withRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/generatePath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/matchPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/modules/BrowserRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/modules/HashRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/modules/Link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/modules/NavLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/modules/utils/locationUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/umd/react-router-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/umd/react-router-dom.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/umd/react-router-dom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/umd/react-router-dom.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/warnAboutDeprecatedCJSRequire.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/withRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/MemoryRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/Prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/Redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/Route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/Router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/StaticRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/Switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/cjs/react-router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/cjs/react-router.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/cjs/react-router.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/cjs/react-router.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/MemoryRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/Prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/Redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/Route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/Router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/StaticRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/Switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/generatePath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/matchPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/warnAboutDeprecatedESMImport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/es/withRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/esm/react-router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/esm/react-router.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/generatePath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/matchPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/HistoryContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Lifecycle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/MemoryRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Prompt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/RouterContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/StaticRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/createNameContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/generatePath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/hooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/matchPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/modules/withRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/umd/react-router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/umd/react-router.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/umd/react-router.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/umd/react-router.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/warnAboutDeprecatedCJSRequire.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/withRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/cjs/resolve-pathname.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/cjs/resolve-pathname.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/esm/resolve-pathname.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/umd/resolve-pathname.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-pathname/umd/resolve-pathname.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/dist/tiny-invariant.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/dist/tiny-invariant.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/dist/tiny-invariant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/dist/tiny-invariant.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/src/tiny-invariant.flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-invariant/src/tiny-invariant.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/dist/tiny-warning.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/dist/tiny-warning.cjs.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/dist/tiny-warning.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/dist/tiny-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/dist/tiny-warning.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/src/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tiny-warning/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/cjs/value-equal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/cjs/value-equal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/esm/value-equal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/umd/value-equal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/value-equal/umd/value-equal.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +509,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -133,6 +574,11 @@
       <workItem from="1622474172758" duration="5264000" />
       <workItem from="1622485823319" duration="1707000" />
       <workItem from="1622495951671" duration="2210000" />
+      <workItem from="1622499173324" duration="604000" />
+      <workItem from="1623335781291" duration="1531000" />
+      <workItem from="1623514216652" duration="10490000" />
+      <workItem from="1623616476513" duration="863000" />
+      <workItem from="1623617365387" duration="1971000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -243,6 +689,32 @@
     <MESSAGE value="Integrated backend for facebook login" />
     <MESSAGE value="Added popup, deleted login, added feed and register" />
     <option name="LAST_COMMIT_MESSAGE" value="Added popup, deleted login, added feed and register" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1623620187600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623620187600" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1623620187600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623620187600" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1623620187600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623620187600" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1623620187600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623620187600" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623336643109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623336643109" />
+    <state x="1187" y="193" width="585" height="534" key="find.popup" timestamp="1623617548891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1187" y="193" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623617548891" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

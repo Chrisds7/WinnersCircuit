@@ -1,8 +1,10 @@
 import React from "react";
 import "./RegisterComponent.css";
 import logo from '../logo.png';
+import { useHistory } from 'react-router-dom';
 
 class RegisterComponent extends React.Component {
+   // props;
 
     constructor(props) {
 
@@ -17,39 +19,45 @@ class RegisterComponent extends React.Component {
             <div className='signUpBackground'>
                 <img src={logo} id='signUpLogo' alt='Logo'/>
                 <div className='signUpForm'>
-                    <h1>Sign up and create <span id='redHighlight'> your profile </span></h1>
                     <form>
+                        <label htmlFor="fname">First Name: </label>
+                        <input type="text"/><br/>
 
-                        <label for='Email'>Email:</label>
-                        <input name='Email' type='text' placeholder='email' id='signUpEmail'></input>
+                        <label htmlFor="lname">Last Name: </label>
+                        <input type="text"/><br/>
 
-                        <label for='New Password'>Password:</label>
-                        <input name='New Password' type='text' placeholder='new password'
-                               className='signUpPassword'></input>
-                        <input type='text' placeholder='retype new password' className='signUpPassword'></input>
+                        <label htmlFor="birthday">Date Of Birth: </label>
+                        <input type="date" id="birthday" name="birthday"/><br/>
 
-                        <label for='Height'>Height (in cm):</label>
-                        <input name='Height' type='text' min='0' max='225' placeholder='example: 180cm'></input>
+                        <label htmlFor="height-ft">Height: </label>
+                        <input type="text" className="height"/><span>ft</span>
+                        <input type="text" className="height"/><span>in</span><br/>
 
-                        <label for='position'>Choose a position:</label>
+                        <label htmlFor="school">School: </label>
+                        <input type="text"/><br/>
+
+                        <label htmlFor='position'>Position:</label>
                         <select name='position'>
                             <option value='PG'>Point Guard</option>
                             <option value='SG'>Shooting Guard</option>
                             <option value='C'>Center</option>
                             <option value='SF'>Small Forward</option>
                             <option value='PF'>Power Forward</option>
-                        </select>
+                        </select><br/>
 
-                        <label for='Team' id='team'>Team:</label>
-                        <input name='Team' type='text' placeholder='Current or most recent team'></input>
-
-                        <button id='join'>Join</button>
+                        <button onClick={() => { this.sendData() }} >Begin Your Journey</button>
                     </form>
                 </div>
             </div>
 
         )
 
+    }
+
+    sendData(){
+        this.props.history.push('/feed');
+
+        //TODO post request down below in this function 
     }
 
 }
