@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Auth0ProviderWithHistory from "./Authentication/auth0-provider-with-history";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Auth0ProviderWithHistory>
+          <App />
+      </Auth0ProviderWithHistory>
   </React.StrictMode>,
   document.getElementById('root')
 );

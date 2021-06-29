@@ -1,8 +1,7 @@
 import React from "react";
 import "./RegisterComponent.css";
 import logo from '../logo.png';
-import { useHistory } from 'react-router-dom';
-import {registerAccount} from "../LoginComponent/LoginAccountRegister";
+import { withAuth0 } from "@auth0/auth0-react";
 
 class RegisterComponent extends React.Component {
 
@@ -40,8 +39,9 @@ class RegisterComponent extends React.Component {
 
     }
 
-
     render() {
+
+        const { logout } = this.props.auth0;
 
         return (
 
@@ -79,6 +79,11 @@ class RegisterComponent extends React.Component {
                         <button onClick = { this.sendData } >Begin Your Journey</button>
                     </form>
                 </div>
+
+                <button
+                    onClick = { () => logout() }
+                >Log Out</button>
+
             </div>
 
         )
@@ -118,4 +123,4 @@ class RegisterComponent extends React.Component {
     }
 
 }
-export default RegisterComponent;
+export default withAuth0(RegisterComponent);

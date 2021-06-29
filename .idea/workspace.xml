@@ -19,8 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Added popup, deleted login, added feed and register">
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Added backend support for the registration form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/404/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/404/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/GoogleLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginAccountRegister.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginFacebookComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginGoogleComponent.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +104,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\William\WebstormProjects\WinnersCircuit\Winners Circuit\wc\src\Authentication" />
       <recent name="C:\Users\William\WebstormProjects\WinnersCircuit\Winners Circuit\wc\src\pages\LoginComponent" />
       <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\Homepage" />
       <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\404" />
       <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\LogInPage" />
-      <recent name="C:\Users\Excal\WebstormProjects\Winners Circuit Head\Winners Circuit\wc\src\pages\SignUpPage" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,7 +169,11 @@
       <workItem from="1623514216652" duration="10490000" />
       <workItem from="1623616476513" duration="863000" />
       <workItem from="1623617365387" duration="1971000" />
-      <workItem from="1623964179145" duration="1764000" />
+      <workItem from="1623964179145" duration="1952000" />
+      <workItem from="1624557126810" duration="7666000" />
+      <workItem from="1624896746553" duration="3153000" />
+      <workItem from="1624905195039" duration="4599000" />
+      <workItem from="1624982284273" duration="8902000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -234,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622497222989</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added backend support for the registration form">
+      <created>1623966075886</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623966075886</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +290,8 @@
     <MESSAGE value="Integrated frontend for Facebook login" />
     <MESSAGE value="Integrated backend for facebook login" />
     <MESSAGE value="Added popup, deleted login, added feed and register" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added popup, deleted login, added feed and register" />
+    <MESSAGE value="Added backend support for the registration form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added backend support for the registration form" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

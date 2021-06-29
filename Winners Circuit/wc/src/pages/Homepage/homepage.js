@@ -8,35 +8,14 @@ import red2 from "./red2.png";
 import red3 from "./red3.png";
 import twitter from "./twitter.png";
 import instagram from "./instagram.png";
-import LoginComponent from "../LoginComponent/LoginComponent";
+import LoginComponent from "../MiscComponents/LoginComponent";
+import {useAuth0, withAuth0} from "@auth0/auth0-react";
 
 class MainPage extends React.Component {
 
     constructor(props) {
 
         super(props);
-
-        this.state = { show: false }
-
-        this.showLogin = this.showLogin.bind(this);
-        this.hideLogin = this.hideLogin.bind(this);
-    }
-
-    reset() {
-
-        this.state = { show: false }
-
-    }
-
-    showLogin() {
-
-        this.setState({ show: true });
-
-    }
-
-    hideLogin() {
-
-        this.setState({ show: false })
 
     }
 
@@ -46,8 +25,7 @@ class MainPage extends React.Component {
             <div className="flex-container">
                 <p id = 'welcome'>WELCOME &nbsp; TO
                     <span id = 'buttons'>
-                    <LoginComponent show = { this.state.show } handleClose = { this.hideLogin } />
-                    <button type = 'button' onClick = { this.showLogin } id = 'signInButton' > Sign up / Log in </button>
+                    <LoginComponent/>
                 </span>
                     <span id = 'socialMedia'>
                     <img id="twitter" src = {twitter} alt = 'Twitter'/>
@@ -133,4 +111,4 @@ class MainPage extends React.Component {
 
 }
 
-export default MainPage;
+export default withAuth0(MainPage);
