@@ -9,6 +9,10 @@
     background-color: #f6f6f6;
 }
 
+.logoContainer {
+    margin: -5%;
+}
+
 #signUpLogo {
     height: 30%;
     width: 20%;

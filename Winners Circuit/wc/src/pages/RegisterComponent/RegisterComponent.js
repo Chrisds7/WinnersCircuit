@@ -17,9 +17,11 @@ class RegisterComponent extends React.Component {
         return (
 
             <div className='signUpBackground'>
-                <img src={logo} id='signUpLogo' alt='Logo'/>
+                <div className = 'logoContainer'>
+                    <img src={logo} id='signUpLogo' alt='Logo'/>
+                </div>
                 <div className='signUpForm'>
-                    <form>
+                    <form id = 'tester'>
                         <label htmlFor="fname">First Name: </label>
                         <input type="text"/><br/>
 
