@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Added backend support for the registration form">
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Implemented Auth0 into the app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
@@ -174,6 +174,7 @@
       <workItem from="1624896746553" duration="3153000" />
       <workItem from="1624905195039" duration="4599000" />
       <workItem from="1624982284273" duration="8902000" />
+      <workItem from="1625007508016" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623966075886</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implemented Auth0 into the app">
+      <created>1625007886647</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625007886647</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +299,8 @@
     <MESSAGE value="Integrated backend for facebook login" />
     <MESSAGE value="Added popup, deleted login, added feed and register" />
     <MESSAGE value="Added backend support for the registration form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added backend support for the registration form" />
+    <MESSAGE value="Implemented Auth0 into the app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Auth0 into the app" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
