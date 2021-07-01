@@ -24,17 +24,7 @@
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/404/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/404/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/GoogleLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginAccountRegister.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginFacebookComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/LoginComponent/LoginGoogleComponent.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +164,8 @@
       <workItem from="1624896746553" duration="3153000" />
       <workItem from="1624905195039" duration="4599000" />
       <workItem from="1624982284273" duration="8902000" />
-      <workItem from="1625007508016" duration="382000" />
+      <workItem from="1625007508016" duration="690000" />
+      <workItem from="1625103014440" duration="5302000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -267,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625007886647</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implemented Auth0 into the app">
+      <created>1625008066225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625008066225</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

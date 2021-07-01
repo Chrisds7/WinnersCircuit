@@ -27,7 +27,8 @@ class App extends React.Component {
                     <Route exact path = '/' component = {MainPage} />
                     <Route exact path = '/404' component = {NotFoundPage} />
                     <ProtectedRoute exact path = '/feed' component = {FeedComponent} />
-                    <ProtectedRoute exact path = '/register' component = {RegisterComponent} />
+                    <Route exact path = '/register' component = {RegisterComponent} />
+                    <Route exact path = '/continue' component = {NotFoundPage}/>
                     <Redirect to = '/404'/>
                 </Switch>
             </Router>

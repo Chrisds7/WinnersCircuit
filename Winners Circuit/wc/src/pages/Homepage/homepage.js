@@ -21,11 +21,16 @@ class MainPage extends React.Component {
 
     render() {
 
+        const { logout } = this.props.auth0;
+
         return (
             <div className="flex-container">
                 <p id = 'welcome'>WELCOME &nbsp; TO
                     <span id = 'buttons'>
                     <LoginComponent/>
+                    <button
+                        onClick = { () => logout() }
+                    >Log Out</button>
                 </span>
                     <span id = 'socialMedia'>
                     <img id="twitter" src = {twitter} alt = 'Twitter'/>

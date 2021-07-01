@@ -2,6 +2,7 @@ import React from "react";
 import "./RegisterComponent.css";
 import logo from '../logo.png';
 import { withAuth0 } from "@auth0/auth0-react";
+const queryString = require('query-string');
 
 class RegisterComponent extends React.Component {
 
@@ -39,7 +40,11 @@ class RegisterComponent extends React.Component {
 
     }
 
+    stateToken = queryString.parse(this.props.location.search);
+
     render() {
+
+        console.log(this.stateToken);
 
         const { logout } = this.props.auth0;
 
@@ -77,6 +82,7 @@ class RegisterComponent extends React.Component {
                         </select><br/>
 
                         <button onClick = { this.sendData } >Begin Your Journey</button>
+
                     </form>
                 </div>
 
@@ -93,6 +99,12 @@ class RegisterComponent extends React.Component {
     async sendData(event) {
 
         event.preventDefault();
+
+        window.location.href = `https://winnerscircuit.us.auth0.com/continue?state=${this.stateToken.state}`;
+
+        /*
+
+        //this.props.history.push("/continue?state=" + this.stateToken.state);
 
         this.props.history.push('/feed');
 
@@ -119,6 +131,10 @@ class RegisterComponent extends React.Component {
             body: JSON.stringify(body)
 
         });
+
+        */
+
+        console.log("Sent!")
 
     }
 
