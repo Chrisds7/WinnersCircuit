@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { withAuth0 } from "@auth0/auth0-react";
+import isRegistered from "../../Authentication/isRegistered";
+import checkRegisteredOrRedirect from "../../Authentication/isRegistered";
 
 class FeedComponent extends React.Component {
 
@@ -8,27 +10,7 @@ class FeedComponent extends React.Component {
 
         super(props);
 
-    }
 
-    async getClaims() {
-
-        const claims = await this.props.auth0.getIdTokenClaims();
-
-        //TODO: Change PageKite URL here
-
-        const namespace = 'https://winnerscircuit.pagekite.me'
-
-        if (claims[namespace + '/newSignup']) {
-
-            this.props.history.push('/register');
-
-        } else {
-
-            console.log("Not a new user, will not redirect")
-
-        }
-
-        console.log(claims)
 
     }
 
@@ -36,11 +18,13 @@ class FeedComponent extends React.Component {
 
         const { logout } = this.props.auth0;
 
-        this.getClaims();
+        checkRegisteredOrRedirect(this);
 
         return (
 
             <div>
+
+
 
                 <p>Epic feed page</p>
 

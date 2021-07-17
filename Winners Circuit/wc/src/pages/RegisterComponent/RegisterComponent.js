@@ -40,13 +40,7 @@ class RegisterComponent extends React.Component {
 
     }
 
-    stateToken = queryString.parse(this.props.location.search);
-
     render() {
-
-        console.log(this.stateToken);
-
-        const { logout } = this.props.auth0;
 
         return (
 
@@ -84,11 +78,8 @@ class RegisterComponent extends React.Component {
                         <button onClick = { this.sendData } >Begin Your Journey</button>
 
                     </form>
-                </div>
 
-                <button
-                    onClick = { () => logout() }
-                >Log Out</button>
+                </div>
 
             </div>
 
@@ -97,10 +88,6 @@ class RegisterComponent extends React.Component {
     }
 
     async sendData(event) {
-
-        event.preventDefault();
-
-        window.location.href = `https://winnerscircuit.us.auth0.com/continue?state=${this.stateToken.state}`;
 
         /*
 
@@ -133,8 +120,6 @@ class RegisterComponent extends React.Component {
         });
 
         */
-
-        console.log("Sent!")
 
     }
 

@@ -8,6 +8,8 @@ import NotFoundPage from "./pages/404/404";
 import FeedComponent from "./pages/FeedComponent/FeedComponent";
 import RegisterComponent from "./pages/RegisterComponent/RegisterComponent";
 
+require('dotenv').config();
+
 class App extends React.Component {
 
     render() {

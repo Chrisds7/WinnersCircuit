@@ -19,12 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Implemented Auth0 into the app">
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Added the action for registration on first log in">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/Homepage/homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +72,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Winners Circuit/wc/.env" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1s20HYuDks0koH8YPQ6JqZf6H0L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -81,7 +87,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/WinnersCircuitBackend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Winners Circuit/wc/src/pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -93,6 +99,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\William\WebstormProjects\WinnersCircuit\Winners Circuit\wc\src\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\William\WebstormProjects\WinnersCircuit\Winners Circuit\wc\src\Authentication" />
       <recent name="C:\Users\William\WebstormProjects\WinnersCircuit\Winners Circuit\wc\src\pages\LoginComponent" />
@@ -165,7 +174,17 @@
       <workItem from="1624905195039" duration="4599000" />
       <workItem from="1624982284273" duration="8902000" />
       <workItem from="1625007508016" duration="690000" />
-      <workItem from="1625103014440" duration="5302000" />
+      <workItem from="1625103014440" duration="5413000" />
+      <workItem from="1625600160984" duration="1039000" />
+      <workItem from="1625609843957" duration="3083000" />
+      <workItem from="1625781046523" duration="598000" />
+      <workItem from="1626031241889" duration="254000" />
+      <workItem from="1626034920211" duration="1160000" />
+      <workItem from="1626039074595" duration="177000" />
+      <workItem from="1626297358708" duration="270000" />
+      <workItem from="1626379566313" duration="629000" />
+      <workItem from="1626466766346" duration="4790000" />
+      <workItem from="1626542040493" duration="2681000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -265,11 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625008066225</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added the action for registration on first log in">
+      <created>1625108485459</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625108485460</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -298,7 +327,8 @@
     <MESSAGE value="Added popup, deleted login, added feed and register" />
     <MESSAGE value="Added backend support for the registration form" />
     <MESSAGE value="Implemented Auth0 into the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Auth0 into the app" />
+    <MESSAGE value="Added the action for registration on first log in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the action for registration on first log in" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
