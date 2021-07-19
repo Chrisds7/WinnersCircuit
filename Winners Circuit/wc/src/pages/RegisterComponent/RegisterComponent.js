@@ -18,7 +18,7 @@ class RegisterComponent extends React.Component {
             heightFt: "",
             heightIn: "",
             school: "",
-            position: ""
+            position: "PG"
 
         }
 
@@ -89,16 +89,18 @@ class RegisterComponent extends React.Component {
 
     async sendData(event) {
 
-        /*
+        event.preventDefault();
 
-        //this.props.history.push("/continue?state=" + this.stateToken.state);
-
-        this.props.history.push('/feed');
+        const claims = await this.props.auth0.getIdTokenClaims();
 
         const body = {
 
-            // TODO: Change the userId to work with our authentication flow
-            userId: "12346",
+            authId: claims.sub,
+            authName: claims.name,
+            authFamilyName: claims.family_name || 'N/A',
+            authGivenName: claims.given_name || 'N/A',
+            email: claims.email,
+            emailVerified: claims.email_verified,
             firstName: this.state.firstName,
             lastName: this.state.lastName,
             dateOfBirth: this.state.dateOfBirth,
@@ -109,9 +111,7 @@ class RegisterComponent extends React.Component {
 
         }
 
-        console.log(body);
-
-        const response = await fetch("http://localhost:5000/register", {
+        await fetch("https://winnerscircuits.com/api/v1/register", {
 
             method: "POST",
             headers: {"Content-Type": "application/json"},
@@ -119,7 +119,7 @@ class RegisterComponent extends React.Component {
 
         });
 
-        */
+        this.props.history.push('/feed');
 
     }
 

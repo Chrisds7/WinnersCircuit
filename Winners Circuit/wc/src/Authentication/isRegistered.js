@@ -5,15 +5,13 @@ export default async function checkRegisteredOrRedirect({ props }) {
 
     const claims = await props.auth0.getIdTokenClaims();
 
-    // TODO: Make this an environment variable
+    const response = await fetch(`https://winnerscircuits.com/api/v1/userMetadata/${claims.sub}`);
 
-    const namespace = 'https://www.winnerscircuits.com/';
+    const data = await response.json();
 
-    const customClaim = namespace + "registration";
+    if (data.user_metadata.registrationState === 'needsToRegister') {
 
-    if (claims[customClaim] === 'needsToRegister') {
-
-        console.log("Logged in but not registered, needs to be redirected!");
+        console.log("User is logged in but not registered. Redirecting to registration page!");
 
         props.history.push("/register");
 

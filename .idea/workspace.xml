@@ -19,15 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Added the action for registration on first log in">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_5_42_p_m___Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-05-04_9_36_p_m___Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="dad1e77e-5ea3-4545-9d33-04db9c354407" name="Default Changelist" comment="Registration is now flag based instead of using auth0 redirects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/FeedComponent/FeedComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/Authentication/isRegistered.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/Authentication/isRegistered.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Winners Circuit/wc/src/pages/RegisterComponent/RegisterComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +180,8 @@
       <workItem from="1626297358708" duration="270000" />
       <workItem from="1626379566313" duration="629000" />
       <workItem from="1626466766346" duration="4790000" />
-      <workItem from="1626542040493" duration="2681000" />
+      <workItem from="1626542040493" duration="2809000" />
+      <workItem from="1626705412888" duration="11731000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Homepage">
       <created>1620161925168</created>
@@ -291,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625108485460</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Registration is now flag based instead of using auth0 redirects">
+      <created>1626545468246</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1626545468246</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +332,8 @@
     <MESSAGE value="Added backend support for the registration form" />
     <MESSAGE value="Implemented Auth0 into the app" />
     <MESSAGE value="Added the action for registration on first log in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the action for registration on first log in" />
+    <MESSAGE value="Registration is now flag based instead of using auth0 redirects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registration is now flag based instead of using auth0 redirects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
