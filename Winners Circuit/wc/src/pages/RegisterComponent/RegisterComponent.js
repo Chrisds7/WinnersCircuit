@@ -12,6 +12,8 @@ class RegisterComponent extends React.Component {
 
         this.state = {
 
+            csrfToken: "",
+
             firstName: "",
             lastName: "",
             dateOfBirth: "",
@@ -25,6 +27,30 @@ class RegisterComponent extends React.Component {
         this.handleChange = this.handleChange.bind(this);
 
         this.sendData = this.sendData.bind(this);
+
+    }
+
+    componentDidMount() {
+
+        this.getCSRFToken();
+
+    }
+
+    async getCSRFToken() {
+
+        const response = await fetch('https://winnerscircuits.com/api/v1/csrf', {
+
+           method: "GET",
+           headers: {
+               Accept: "application/json",
+               "Content-Type": "application/json"
+           }
+
+        });
+
+        this.state.csrfToken = await response.json();
+
+        console.log("Retrieved CSRF Token successfully.")
 
     }
 
@@ -114,7 +140,12 @@ class RegisterComponent extends React.Component {
         await fetch("https://winnerscircuits.com/api/v1/register", {
 
             method: "POST",
-            headers: {"Content-Type": "application/json"},
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+                "xsrf-token": this.state.csrfToken
+
+            },
             body: JSON.stringify(body)
 
         });
